@@ -1,0 +1,7 @@
+{
+  "name": "goatMovie",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
