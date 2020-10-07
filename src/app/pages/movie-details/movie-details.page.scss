@@ -1,0 +1,31 @@
+.info-img {
+    max-height: 30vh;
+    object-fit: contain;
+    padding: 10px;
+}
+
+ion-toolbar {
+    vertical-align: middle;
+
+    ion-button {
+        width: 20%;
+        max-width: 100px;
+        padding-left: 2%;
+    }
+    ion-title {
+        text-align: center;
+        min-width: 60%;
+    }
+    ion-img {
+        max-width: 60px;
+        padding-right:2%;
+    }
+}
+
+ion-card-content{
+    text-align: center;
+
+    ion-item {
+        text-align: left;
+    }
+}

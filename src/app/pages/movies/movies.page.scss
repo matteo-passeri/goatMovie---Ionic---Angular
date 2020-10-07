@@ -1,0 +1,59 @@
+ion-toolbar {
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px black;
+    --background: linear-gradient(to right, #dddcdc 0%, #727272 100%) !important;
+
+    ion-img {
+        max-width: 100px;
+        padding-left: 2%;
+    }
+}
+
+ion-content {
+    --background: #dddcdc;
+
+    #searchbarGrid {
+        padding: 0px;
+        margin: 0px;
+        max-height: 80px;
+
+        .verticalMiddle {
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            vertical-align: middle;
+
+            #searchbar {
+                max-width: 80%;
+            }
+            #checkbox {
+                max-width: 20%;
+                min-width: 100px;
+            }
+        }    
+    }
+
+    #movieButton {
+        --background: #dddcdc;
+
+        ion-card-content {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #poster {
+            padding: 0px;
+            margin: 0px;
+            width: 100%;
+        }
+
+        ion-label {
+            color: black;
+            margin: 0px;
+            padding: 0px;
+        }
+    }
+}
+  
